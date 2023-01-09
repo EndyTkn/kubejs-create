@@ -1,0 +1,85 @@
+{
+    "name": "Trading Post 2",
+    "appearance": {
+        "block": "kubejs:machine/trading_post"
+    },
+    "components": [
+        {
+            "capacity": 20000,
+            "type": "custommachinery:energy"
+        },
+        {
+            "mode": "input",
+            "id": "cardInput",
+            "type": "custommachinery:item",
+            "capacity": 1
+        },
+        {
+            "mode": "input",
+            "id": "coinInput",
+            "type": "custommachinery:item",
+            "capacity": 64
+        },
+        {
+            "mode": "output",
+            "id": "itemOutput",
+            "type": "custommachinery:item",
+            "capacity": 64
+        }
+    ],
+    "gui": [
+        {
+            "type": "custommachinery:texture",
+            "x": 0,
+            "y": 0,
+            "texture": "kubejs:textures/gui/container.png"
+        },
+        {
+            "x": 7,
+            "y": 80,
+            "type": "custommachinery:player_inventory"
+        },
+        {
+            "x": 165,
+            "y": 10,
+            "width": 5,
+            "height": 60,
+            "type": "custommachinery:energy",
+            "filledtexture": "mekanism:gui/bar/vertical_power.png"
+        },
+        {
+            "id": "cardInput",
+            "x": 30,
+            "y": 35,
+            "width": 20,
+            "height": 20,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "coinInput",
+            "x": 60,
+            "y": 35,
+            "width": 20,
+            "height": 20,
+            "type": "custommachinery:slot"
+        },
+        {
+            "x": 87,
+            "y": 35,
+            "type": "custommachinery:progress"
+        },
+        {
+            "id": "itemOutput",
+            "x": 120,
+            "y": 35,
+            "width": 20,
+            "height": 20,
+            "type": "custommachinery:slot"
+        }, {
+            "text": "Trading Post",
+            "x": 5,
+            "y": 7,
+            "type": "custommachinery:text"
+        }
+    ]
+}
